@@ -15,6 +15,8 @@ namespace Play.Catalog.Service.Models
 
         public decimal Price { get; set; }
         
+        public decimal Rating { get; set; }
+        
         public DateTimeOffset CreatedDate { get; set; }
     }
 }
